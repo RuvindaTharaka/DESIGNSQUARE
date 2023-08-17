@@ -1,0 +1,147 @@
+.choose {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+}
+
+.choose_grid {
+    
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.reason {
+    width: 320px; 
+    height: 240px; 
+    padding: 20px;
+    position: relative;
+}
+  
+.reason_title{
+    position: relative; 
+    line-height: 0.9;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.reason_paragraph{
+    position: relative;
+    line-height: 0.9;
+    text-align: center;
+}
+
+.top-left::before {
+    background-image: url("../images/sketch-2.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 340px 260px;
+    content: "";
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.3;
+}
+  
+.top-right::before {
+    background-image: url("../images/sketch-3.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 340px 260px;
+    content: "";
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.3;
+}
+  
+.bottom-left::before {
+    background-image: url("../images/sketch-1.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 340px 260px;
+    content: "";
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.3;
+}
+  
+.bottom-right::before {
+    background-image: url("../images/sketch-4.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 340px 260px;
+    content: "";
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.4;
+}
+
+.top-left::after,
+.bottom-left::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  height: 140px;
+  width: 180px;
+  border: 3px solid #3e653e;
+  border-right: none;
+  border-bottom: none;
+  
+}
+
+.top-right::after,
+.bottom-right::after {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  right: 0;
+  box-sizing: border-box;
+  height: 140px;
+  width: 180px;
+  border: 3px solid #3e653e;
+  border-left: none;
+  border-top: none;
+}
+
+@media (max-width: 1380px) {
+    .choose_grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 1080px) {
+    .choose_grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 680px) {
+    .choose_grid {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       gap:40px;
+    }
+}

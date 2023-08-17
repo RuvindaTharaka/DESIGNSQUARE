@@ -1,0 +1,171 @@
+:root {
+    --primary-color: rgba(64, 156, 105, 1); 
+    --secondary-color: rgba(5, 47, 32, 0.65);
+    --primary-font-color: rgba(255,255,255,1);
+    --secondary-color: rgba(62, 101, 62, 1);
+    --about_us-color:rgba(0, 0, 0, 0.7);
+    --about-sub_title: rgba(0, 0, 0, 1);
+    --hidden-titile-color:rgba(156, 220, 181, .5);
+    --methodology-green-color: rgba(0,128,0,1);
+}
+
+/* General Color Classes */
+.hidden_title {
+    color: var(--hidden-titile-color);
+}
+
+.main_title {
+  color: var(--about-sub_title);
+}
+
+
+
+/* ++++++++++++++++++++ Footer ++++++++++++++++++++ */
+.footer {
+    background-color: var(--secondary-color);
+    color: var(--primary-font-color);
+}
+
+
+/* ++++++++++++++++++++ Navbar ++++++++++++++++++++ */
+.navbar {
+    background-color: var(--primary-color);
+    color: var(--primary-font-color);
+}
+
+.nav-links li a {
+    color: var(--primary-font-color);
+}
+
+.nav-links li a:hover {
+    color: var(--secondary-color);
+}
+
+.toggle-icon {
+    color: var(--primary-font-color);
+}
+
+.toggle-icon:hover {
+    color: var(--secondary-color);
+}
+
+.dropdown-links {
+    background-color: var(--primary-color);
+}
+
+.dropdown-links li a{
+    color: var(--primary-font-color);
+}
+
+.dropdown-links li a:hover{
+    color: var(--secondary-color);
+}
+
+.social-icon {
+    color: var(--primary-font-color);
+}
+
+.social-icon:hover {
+    color: var(--secondary-color);
+}
+
+.nav-links li a.active-link {
+    color: var(--secondary-color);
+}
+
+.dropdown-links li a.active-link {
+    color: var(--secondary-color);
+}
+
+
+/* ++++++++++++++++++++ Home ++++++++++++++++++++ */
+.home {
+    background-color: var(--primary-color);
+    color: var(--primary-font-color);
+}
+
+/* ++++++++++++++++++++ About ++++++++++++++++++++ */
+.about_title_1 {
+    color: var(--about_us-color);
+}
+
+.about_title_2 {
+    color: var(--about-sub_title);
+}
+
+/* ++++++++++++++++++++ Choose Us ++++++++++++++++++++ */
+.reason {
+    color: var(--about-sub_title);
+}
+
+.reason_paragraph{
+    color: rgba(0, 0, 0, 1);
+}
+
+/* ++++++++++++++++++++ Methodalogy ++++++++++++++++++++ */
+.step {
+    background-color: var(--methodology-green-color);
+    color: var(--primary-font-color);
+}
+
+.timeline-line {
+    background-color: var(--methodology-green-color);
+}
+
+.vertical-line {
+    background-color: transparent;
+}
+
+.methodology_description {
+    color: var(--about-sub_title);
+}
+
+#vertical-line1 {
+    background-color: var(--methodology-green-color);
+}
+
+#step1 {
+    background-color: var(--primary-font-color);
+    color: var(--about-sub_title);  
+}
+
+#step1:hover {
+    background-color: var(--primary-font-color);
+    color: var(--about-sub_title);
+}
+
+#step2:hover {
+    background-color: var(--primary-font-color);
+    color: var(--about-sub_title);
+}
+
+#step3:hover {
+    background-color: var(--primary-font-color);
+    color: var(--about-sub_title);
+}
+#step4:hover {
+    background-color: var(--primary-font-color);
+    color: var(--about-sub_title);
+}
+ 
+
+/* ++++++++++++++++++++ Specialization ++++++++++++++++++++ */
+
+/* ++++++++++++++++++++ Contacts ++++++++++++++++++++ */
+.contacts {
+    background-color: var(--primary-color);
+}
+
+.c_detail-1 h5, .c_detail-1 p{
+    color: var(--primary-font-color);
+}
+
+.email_btn {
+    background-color: var(--primary-font-color);
+    color: var(--about-sub_title);
+}
+
+.email_btn:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-font-color);
+}

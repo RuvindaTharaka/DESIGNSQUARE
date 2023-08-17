@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DESIGN SQUARE</title>
+
+     <!-- Favicon -->
+    <link rel="icon" href="./assets/images/logo.png" type="image/x-icon">
+
+    <!-- External Style Libraries -->
+        <!-- Fontawesome -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+        <!-- Boostrap 4.3 -->    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- Styles -->
+        <!-- Colors -->
+        <link rel="stylesheet" href="./assets/css/colors.css">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="./assets/css/fonts.css">
+        <!--Common Styles -->
+        <link rel="stylesheet" href="./assets/css/styles.css">
+        <!--Navbar Styles -->
+        <link rel="stylesheet" href="./assets/css/navbar.css">
+        <!--Home Styles -->
+        <link rel="stylesheet" href="./assets/css/home.css">
+        <!--About Styles -->
+        <link rel="stylesheet" href="./assets/css/about.css">
+        <!--Choose Styles -->
+        <link rel="stylesheet" href="./assets/css/choose.css">
+        <!--Methodology Styles -->
+        <link rel="stylesheet" href="./assets/css/methodology.css">
+        <!--Contacts Styles -->
+        <link rel="stylesheet" href="./assets/css/contacts.css">
+        <!--Contacts Styles -->
+        <link rel="stylesheet" href="./assets/css/projects.css">
+</head>
+<body>
+   <!--Navbar HTML -->
+    <nav class="navbar">
+
+        <div class="logo_wrap">
+            <img class="logo animate-on-scroll" data-animation="slide-up-fade" src="./assets/images/logo.png" alt="Logo" loading="eager"/>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#home" class="active-link">Home</a></li>
+            <li><a href="#about" >About</a></li>
+            <li style="display: none;"><a href="#choose" >Choose</a></li>
+            <li style="display: none;"><a href="#methodalogy" >Methodalogy</a></li>
+            <li style="display: none;"><a href="#specializations" >Specializations</a></li>
+            <li><a href="#services" >Services</a></li>
+            <li><a href="#products" >Products</a></li>
+            <li><a href="#projects" >Projects</a></li>
+            <li><a href="#contacts" >Contact Us</a></li>
+        </ul>
+
+        <div class="social-icons">
+            <i class="fab fa-facebook-f social-icon"></i>
+            <i class="fab fa-twitter social-icon"></i>
+            <i class="fab fa-instagram social-icon" ></i>
+        </div>
+
+        <ul class="dropdown-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li style="display: none;"><a href="#choose" >Choose</a></li>
+            <li style="display: none;"><a href="#methodalogy" >Methodalogy</a></li>
+            <li style="display: none;"><a href="#specializations" >Specializations</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contacts">Contact US</a></li>
+        </ul>
+
+        <div class="toggle-menu" onclick="toggleNavLinks()">
+            <i class="fa fa-bars toggle-icon" aria-hidden="true"></i>
+        </div>
+
+    </nav>
+
+    <main>
+
+        <!--Home HTML -->
+        <section id="home" class="home">
+            <div class="home_content_div">
+                <h1 class="home_title_1 animate-on-scroll" data-animation="slide-up-fade">THE MAGICAL PLANETARY</h1>
+                <h2 class="home_title_2 animate-on-scroll" data-animation="slide-up-fade-long">Gather Affinity of Dream Space</h2>
+                <p class="home_paragraph animate-on-scroll" data-animation="slide-up-fade">
+                  Welcome to Design Square, the prominent and promising total interior solutions provider in Sri Lanka. <br/>Discover how we can bring in the magic to your realm space.
+                </p>  
+            </div>
+        </section>
+
+        <!--About HTML -->
+        <section id="about" class="about" >
+            <div class="about_container">
+                <div class="about_img_container">
+                    <img class="animate-on-scroll" data-animation="slide-left-fade" src="./assets/images/about-us.png" alt="about-us" loading="eager">
+                </div>
+                <div class="about_content_container animate-on-scroll" data-animation="slide-right-fade">
+                    <h2 class="about_title_1">ABOUT US</h2>
+                    <h3 class="about_title_2">
+                        Creative solutions by professional designers
+                    </h3>
+                    <p class="about_paragraph">
+                          We are a distinguished, comprehensive and one of the leading interior solutions providers in Sri Lanka with experience of more than 7 years in the industry. Having established in 2015, our stance has always been to deliver a range of products, solutions and services, on time and to the utmost quality and standards.  
+                          At Design Square, we are an exclusive team, keen on creating unique and elegant concepts, designs and spaces in a range of domains. Since our inception, our reputation has always been unwavering, a household name branded with 100% client satisfaction. We are very passionate about being creative an unique at every instance of our line of work.
+                          Discover what services and specializations that can cater for your need and the range of stylish products that attract you.  
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--Why-Choose-Us HTML -->
+        <section id="choose" class="choose">
+
+            <div class="header_wrap">
+                <div class="hidden_title">
+                    WHY CHOOSE US
+                    <h1 class="main_title">Why Design Square Chosen?</h1>
+                </div>
+            </div>
+
+            <div class="choose_grid">
+
+                <div class="reason top-left animate-on-scroll" data-animation="slide-up-fade">
+                    <h2 class="reason_title">Design and Innovation</h2>
+                    <p class="reason_paragraph">We excel in what we do the best. We sketch our designs and color with architecture. We always fine-tune our designs with architectural values blending with latest technologies.</p>
+                </div>
+                <div class="reason top-right animate-on-scroll" data-animation="slide-up-fade-long">
+                    <h2 class="reason_title">#1 in Client Satisfaction</h2>
+                    <p class="reason_paragraph">The quality of our work has always stood in an optimal level with the client’s requirement.</p>
+                </div>
+                <div class="reason bottom-left animate-on-scroll" data-animation="slide-up-fade">
+                    <h2 class="reason_title">The Service You Can Rely On</h2>
+                    <p class="reason_paragraph">We provide excellent service and support pre-operation while operating and post-operation of the project.</p>
+                </div>
+                <div class="reason bottom-right animate-on-scroll" data-animation="slide-up-fade-long">
+                    <h2 class="reason_title">Our Caliber</h2>
+                    <p class="reason_paragraph">Our competencies and skills in engineering together with quantity surveying, MEP, and project management offer our clients additional confidence to rely on us. Therefore, we assure our work which will not be redone/renovated in the near future even partially.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--Methodology HTML -->
+        <section id="methodalogy" class="methodalogy">
+            <div class="header_wrap">
+                <div class="hidden_title">
+                    METHODOLOGY
+                    <h1 class="main_title">Our Process</h1>
+                </div>
+            </div>
+
+            <div  class="timeline">
+                <div class="timeline-line"></div>
+      
+                <div class="step_wrap clicked animate-on-scroll" data-animation="slide-up-fade">
+                  <div id="step1" class="step" onclick="loadDescription(1)">Partnering the Sketch</div>
+                  <div id="vertical-line1" class="vertical-line"></div>
+                </div>
+      
+                <div class="step_wrap">
+                  <div id="step2" class="step" onclick="loadDescription(2)">Design & Create</div>
+                  <div id="vertical-line2" class="vertical-line"></div>
+                </div>
+      
+                <div class="step_wrap">
+                  <div id="step3" class="step" onclick="loadDescription(3)">Build & Install</div>
+                  <div id="vertical-line3" class="vertical-line"></div>
+                </div>
+      
+                <div class="step_wrap">
+                  <div id="step4" class="step" onclick="loadDescription(4)">Post Services</div>
+                  <div id="vertical-line4" class="vertical-line"></div>
+                </div>
+            </div>
+      
+            <div id="description" class="methodology_description animate-on-scroll" data-animation="slide-up-fade">
+                The first and foremost step is to map a draft of the final outcome through the eyes of the client. We believe interior designing is personal, rather a unique concern. Getting to know the client’s vision is very vital in bringing out the spectacle. We then carefully inspect the job site at this stage. Design Square will be very attentive to the nature of the space/business, occupants’ lifestyle and behavior, colour matches and favourations and even tiny details such as pets, vehicles, surrounding when creating and designing concepts. Discussions and more discussions, one thing we at Design Square believe in as one important and continuing activity to the desired magic. Budget discussions is also an important corridor to walk-through carefully at this stage. The goal is to delight  the client without making a hole in the pocket. We finalize which design ideology to go on in this imperative phase.
+            </div>
+              
+        </section>
+
+        <!--Specialization HTML -->
+        <section id="specializations" class="specializations">
+            <div class="header_wrap">
+                <div class="hidden_title">
+                    SPECIALIZATION
+                    <h1 class="main_title">Our Specializations</h1>
+                </div>
+            </div>
+        </section>
+
+        <!--Services HTML -->
+        <section id="services" class="services">
+            <div class="header_wrap">
+                <div class="hidden_title">
+                    SERVICES
+                    <h1 class="main_title">Our Awesome Services</h1>
+                </div>
+            </div>
+        </section>
+
+        <!--Products HTML -->
+        <section id="products" class="products">
+            <div class="header_wrap">
+                <div class="hidden_title">
+                    PRODUCTS
+                    <h1 class="main_title">Products</h1>
+                </div>
+            </div>
+        </section>
+
+        <!--Projects HTML -->
+        <section id="projects" class="projects">
+            <div class="header_wrap">
+                <div class="hidden_title">
+                    PROJECTS
+                    <h1 class="main_title">Projects</h1>
+                </div>
+            </div>
+
+            <div class="project_image_container">
+
+                <div class="img_main_col img_main_col-1">
+                  <div class="img_box animate-on-scroll" data-animation="slide-up-fade" style="width: 349px;">
+                    <img
+                      src="./assets/images/g-img1.jpg"
+                      alt=""
+                    />
+                    <div class="description description_font">p-img1</div>
+                  </div>
+      
+                  <div class="img_box animate-on-scroll" data-animation="slide-up-fade" style="width: 386px; ">
+                    <img
+                      src="./assets/images/g-img2.jpg"
+                      alt=""
+                    />
+                    <div class="description description_font">p-img2</div>
+                  </div>
+      
+                  <div class="img_box animate-on-scroll" data-animation="slide-up-fade" style="width: 336px;">
+                    <img
+                      src="./assets/images/g-img3.jpg"
+                      alt=""
+                    />
+                   <div class="description description_font">p-img3</div>
+                  </div>
+                </div>
+      
+                <div class="img_main_col img_main_col-2">
+                  <div style="display: flex; flex-direction: row">
+                    <div class="img_box animate-on-scroll" data-animation="slide-up-fade" style="width: 222px; ">
+                      <img
+                        src="./assets/images/2img.jpeg"
+                        alt=""
+                      />
+                     <div class="description description_font">p-img4</div>
+                    </div>
+                    <div
+                      class="img_box animate-on-scroll" data-animation="slide-up-fade"
+                      style="margin-top: 40px; width:380px;"
+                    >
+                      <img
+                        src="./assets/images/1img.jpeg"
+                        alt=""
+                      />
+                      <div class="description description_font">p-img5</div>
+                    </div>
+                  </div>
+      
+                  <div style="display: flex; flex-direction: row">
+                    <div style="display: flex; flex-direction: column">
+                      <div class="img_box animate-on-scroll" data-animation="slide-up-fade" style="width: 266px; ">
+                        <img
+                          src="./assets/images/g-img6.jpg"
+                          alt=""
+                        />
+                        <div class="description description_font">p-img6</div>
+                      </div>
+          
+                      <div class="img_box animate-on-scroll" data-animation="slide-up-fade" style="width: 256px; ">
+                        <img
+                          src="./assets/images/3img.jpg"
+                          alt=""
+                        />
+                        <div class="description description_font">3img</div>
+                      </div>
+                    </div>
+                    <div class="img_box animate-on-scroll" data-animation="slide-up-fade" style="width: 236px;">
+                      <img
+                        src="./assets/images/g-img7.jpeg"
+                        alt=""
+                      />
+                     <div class="description description_font">p-img7</div>
+                    </div>
+      
+                  </div>
+      
+                  <div class="img_box animate-on-scroll" data-animation="slide-up-fade" style="width: 600px;">
+                    <img
+                      src="./assets/images/g-img8.jpg"
+                      alt=""
+                      style="width: 600px;"
+                    />
+                    <div class="description description_font">p-img8</div>
+                  </div>
+                </div>
+      
+                <div class="img_main_col img_main_col-3">
+                  <div class="img_box animate-on-scroll" data-animation="slide-up-fade" style="width: 367px;">
+                    <img
+                      src="./assets/images/about3.png"
+                      alt=""
+                      style="width: 367px;"
+                    />
+                    <div class="description description_font">p-img10</div>
+                  </div>
+      
+                  <div class="img_box hide1" style="width: 361px;">
+                    <img
+                      src="./assets/images/g-img9.jpg"
+                      alt=""
+                      style="width: 361px;"
+                    />
+                    <div class="description description_font">p-img9</div>
+                  </div>
+                </div>
+      
+                <div class="img_popup">
+                    <i class="fa fa-window-close close_btn" style="margin-left: 95%;"  aria-hidden="true"></i>
+                    <img src="" alt="Popup Image">
+                    <div class="description description_font"></div>
+                </div>
+              
+                <!-- The blurred background for the hide container -->
+                <div class="img_popup_background"></div>
+
+            </div>
+
+            <div class="project_image_hide_container">
+                <div class="img_box animate-on-scroll" data-animation="slide-up-fade" style="width: 350px;">
+                    <img
+                      src="./assets/images/g-img1.jpg"
+                      alt="p-img1"
+                      style="width: 350px;"
+                    />
+                    <div class="description description_font">p-img1</div>
+                </div>
+
+                <div class="img_box animate-on-scroll" data-animation="slide-up-fade" style="width: 350px; ">
+                    <img
+                      src="./assets/images/g-img2.jpg"
+                      alt="p-img2"
+                      style="width: 350px;"
+                    />
+                    <div class="description description_font">p-img2</div>
+                </div>
+
+                <div class="img_box animate-on-scroll" data-animation="slide-up-fade" style="width: 350px;">
+                    <img
+                      src="./assets/images/g-img3.jpg"
+                      alt=">p-img3"
+                      style="width: 350px;"
+                    />
+                   <div class="description description_font">p-img3</div>
+                </div>
+
+                <div class="img_box animate-on-scroll" data-animation="slide-up-fade" style="width: 350px;">
+                    <img
+                      src="./assets/images/2img.jpeg"
+                      alt="p-img4"
+                      style="width: 350px;"
+                    />
+                   <div class="description description_font">p-img4</div>
+                </div>
+
+                <div class="img_box animate-on-scroll" data-animation="slide-up-fade" style="width:350px;">
+                    <img
+                      src="./assets/images/about3.png"
+                      alt="p-img10"
+                      style="width: 350px; "
+                    />
+                    <div class="description description_font">p-img10</div>
+                </div>
+                <div class="img_box animate-on-scroll" data-animation="slide-up-fade" style="width: 236px; height: 500px;">
+                    <img
+                      src="./assets/images/g-img7.jpeg"
+                      alt=""
+                      style="width: 236x; height: 500px;"
+                    />
+                   <div class="description description_font">p-img7</div>
+                  </div>
+
+                
+      
+                <div class="img_box animate-on-scroll" data-animation="slide-up-fade" style="width: 350px; ">
+                    <img
+                      src="./assets/images/3img.jpg"
+                      alt="p-img7"
+                      style="width: 350px; "
+                    />
+                    <div class="description description_font">p-img7</div>
+                </div>
+
+                <div class="img_box animate-on-scroll" data-animation="slide-up-fade" style="width: 350px;">
+                    <img
+                      src="./assets/images/g-img8.jpg"
+                      alt="p-img8"
+                      style="width: 350px;"
+                    />
+                    <div class="description description_font">p-img8</div>
+                </div>
+
+               
+
+                <div class="img_box animate-on-scroll" data-animation="slide-up-fade" style="width:350px;">
+                    <img
+                      src="./assets/images/1img.jpeg"
+                      alt="p-img5"
+                      style="width:350px;"
+                    />
+                    <div class="description description_font">p-img5</div>
+                </div>
+      
+                <div class="img_box hide1" style="width: 350px;">
+                    <img
+                      src="./assets/images/g-img9.jpg"
+                      alt="p-img9"
+                      style="width: 350px;"
+                    />
+                    <div class="description description_font">p-img9</div>
+                </div>
+
+                <div class="img_box animate-on-scroll" data-animation="slide-up-fade" style="width: 350px; ">
+                    <img
+                      src="./assets/images/g-img6.jpg"
+                      alt="p-img6"
+                      style="width: 350px; "
+                    />
+                    <div class="description description_font">p-img6</div>
+                </div>
+
+                <div class="img_popup">
+                    <i class="fa fa-window-close close_btn" style="margin-left: 95%;"  aria-hidden="true"></i>
+                    <img src="" alt="Popup Image">
+                    <div class="description description_font"></div>
+                  </div>
+                
+                <!-- The blurred background for the hide container -->
+                <div class="img_popup_background"></div>
+                 
+            </div>
+        </section>
+
+        <!--Contacts HTML -->
+        <section id="contacts" class="contacts">
+            <div class="header_wrap">
+                <div class="hidden_title" style="color: #65c38b;">
+                    CONTACT US
+                    <h1 class="main_title" style="color: #ffffff;">Get In Touch With Us</h1>
+                </div>
+            </div>
+            <div class="map_container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.7425313627173!2d79.85958037809414!3d7.270112474009416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2e9b5ecbf102f%3A0x4d7c9e7907105358!2sNeat%20Scales%20(Pvt)%20Ltd!5e0!3m2!1sen!2slk!4v1689010378428!5m2!1sen!2slk"
+                    width="100%"
+                    height="400px"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    style="position: relative"
+                ></iframe>
+            </div>
+            <div class="contacts_details">
+
+                <div class="c_detail-1">
+                    <div>
+                        <div>
+                            <h5>ADDRESS</h5>
+                            <p>244/B, Dadugama,</p>
+                            <p>Ja-Ela,</p>
+                            <p>Sri Lanka</p>
+                        </div>
+                        <div style="margin-top: 20px;">
+                            <h5>EMAIL</h5>
+                            <p>dilshan.designsquare@gmail.com</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <h5>PHONE</h5>
+                            <p>(+94) 76 0681075</p>
+                            <p>(+94) 77 2069501</p>
+                            <p>(+94) 34 1428804</p>
+                        </div>
+                        <div style="margin-top: 20px;">
+                            <h5>SOCIAL</h5>
+                            <i class="fab fa-facebook-f social-icon"></i>
+                            <i class="fab fa-twitter social-icon"></i>
+                            <i class="fab fa-instagram social-icon" ></i>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="c_detail-2">
+                    <div class="row">
+                        <div class="input-container">
+                            <input type="text" id="name" name="name" placeholder="Enter your name">
+                        </div>
+                        <div class="input-container">
+                            <input type="email" id="email" name="email" placeholder="Enter your email">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-container">
+                            <input type="text" id="subject" name="subject" placeholder="Enter email subject">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-container">
+                            <textarea id="message" name="message" rows="4" placeholder="Enter your message"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <button class="email_btn">Send Email</button>
+                    </div>
+                </div>
+            </div>
+           
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <p class="footer_font">CopyRight &copy; 2023 INTELLEON . All Rights Reserved.</p>
+    </footer>
+
+
+
+
+    <!-- Scripts -->
+        <script src="./assets/js/script.js"></script>
+        <script src="./assets/js/methodology.js"></script>
+        <script src="./assets/js/projects.js"></script>
+
+    <!-- External Script Libraries -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

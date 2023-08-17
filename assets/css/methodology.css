@@ -1,0 +1,158 @@
+.methodalogy {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+}
+
+.timeline {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    gap: 100px;
+}
+  
+.step_wrap {
+    display: flex;
+    flex-direction: column;
+}
+  
+.step {
+    position: relative;
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+  
+.timeline-line {
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    width: 90%;
+    height: 3px;
+}
+  
+.vertical-line {
+    display: none;
+    width: 2px;
+    margin: 0;
+    padding: 0;
+    margin-left: 80px;
+    height: 95px;
+}
+   
+#vertical-line1 {
+    display: block;
+}
+  
+#step1 {
+    border: 2px solid green;
+}
+
+#step1:hover {
+    border: 2px solid green;
+}
+
+#step2:hover {
+    border: 2px solid green;
+}
+
+#step3:hover {
+    border: 2px solid green;
+}
+
+#step4:hover {
+    border: 2px solid green;
+}
+  
+.methodology_description {
+    margin: 40px 160px 0px 160px;
+    min-height: 320px;
+    height: auto;
+    text-align: center;
+}
+
+@media (max-width: 980px) {
+    .step {
+        width: 8rem;
+        height: 8rem;
+        font-size: 1.25rem;
+    }
+
+    .vertical-line {
+        margin-left: 60px;
+    }
+
+    .methodology_description {
+        margin: 30px 20px 0px 20px;
+    }
+}
+
+@media (max-width: 910px) {
+    .step {
+        width: 6rem;
+        height: 6rem;
+        font-size: 1rem;
+    }
+
+    .vertical-line {
+        margin-left: 3.125rem;
+    }
+}
+
+@media (max-width: 680px) {
+    .timeline {
+        gap: 25px;
+    }
+
+    .methodology_description {
+        min-height: 380px;
+    }
+}
+
+@media (max-width: 440px) {
+    .step {
+        width: 5rem;
+        height: 5rem;
+        font-size: .8rem;
+    }
+
+    .vertical-line {
+        margin-left: 2.75rem;
+    }
+
+}
+
+@media (max-width: 380px) {
+    .step {
+        width: 4rem;
+        height: 4rem;
+        font-size: .7rem;
+    }
+
+    .vertical-line {
+        margin-left: 2.125rem;
+    }
+}
+
+@media (max-width: 340px) {
+    .step {
+        width: 3.5rem;
+        height: 3.5rem;
+        font-size: .5rem;
+    }
+
+    .vertical-line {
+        margin-left: 1.75rem;
+    }
+
+    .timeline-line{
+        width: 98%;
+        left: 0;
+    }
+}

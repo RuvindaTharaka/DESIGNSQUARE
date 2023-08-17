@@ -1,0 +1,132 @@
+/* Custom styles */
+.navbar {
+    padding: .8rem 1.2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10000;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60px;
+    border-bottom: 2px solid white;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.nav-links li {
+    margin-left: 1rem;
+}
+  
+.nav-links li a {
+    text-decoration: none;
+    padding: .8rem 1.2rem;
+    cursor: pointer;
+}
+
+.navbar-nav .social-icon {
+    margin: 0 5px;
+    padding: 5px;
+}
+
+.toggle-menu {
+    display: none;
+    cursor: pointer;
+}
+  
+.toggle-icon {
+    display: block;
+}
+  
+.dropdown-links {
+    display: none;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    width: 100%;
+    padding: 50px;
+}
+  
+.dropdown-links li {
+    display: none;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+}
+  
+.dropdown-links li a {
+    display: none;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.logo_wrap {
+    position: fixed;
+    top: 10px;
+    left: 100px;
+    z-index: 1000;
+}
+  
+.logo{
+    width: 100px;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    margin-right: 40px; 
+    margin-left: 100px;
+}
+
+.social-icon {
+    padding: 5px;
+    cursor: pointer;
+}
+
+/* ... Media Queries ... */
+
+@media (max-width: 1140px) {
+    /*Since we reduce the height of fixed navbar from 60px to 45px we need to reduce the padding top kept for main from 60px to 45px*/
+    main {
+        padding-top: 45px;
+    }
+
+    .logo_wrap {
+        left: 20px;
+    }
+
+    .logo {
+        width: 60px;
+    }
+    
+    .navbar {
+        justify-content: flex-end;
+        height: 45px;
+    }
+      
+    .nav-links {
+        display: none;
+    }
+    
+    .toggle-menu,
+    .dropdown-links,
+    .dropdown-links li,
+    .dropdown-links li a {
+        display: block;
+    }
+}
+
+@media (max-width: 340px) {
+    .social-icons {
+        display: none;
+    }
+}
+
+

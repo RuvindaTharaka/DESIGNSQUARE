@@ -1,0 +1,94 @@
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+}
+
+.about_container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.about::before{
+    background-image: url("../images/sketch-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    content: "";
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.25;
+}
+
+.about_img_container{
+    width: 50%;
+    position: relative;
+}
+
+.about_img_container>img {
+    width: 95%;
+}
+
+.about_content_container {
+    display: flex;
+    width: 50%;
+    height: auto;
+    border: 15px solid rgba(1, 1, 15, 0.1);
+    padding: 25px;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about_title_2 {
+    text-align: center;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+  
+.about_paragraph {
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: auto;
+}
+
+@media (max-width: 1180px) {
+    .about_container {
+        flex-direction: column;
+    }
+
+    .about_img_container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about_content_container{
+          width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .about_content_container {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
