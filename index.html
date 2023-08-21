@@ -35,6 +35,8 @@
         <link rel="stylesheet" href="./assets/css/contacts.css">
         <!--Contacts Styles -->
         <link rel="stylesheet" href="./assets/css/projects.css">
+         <!--Contacts Styles -->
+         <link rel="stylesheet" href="./assets/css/products.css">
 </head>
 <body>
    <!--Navbar HTML -->
@@ -186,7 +188,7 @@
         </section>
 
         <!--Specialization HTML -->
-        <section id="specializations" class="specializations">
+        <section id="specializations" class="specializations" style="height: 80vh;">
             <div class="header_wrap">
                 <div class="hidden_title">
                     SPECIALIZATION
@@ -196,23 +198,194 @@
         </section>
 
         <!--Services HTML -->
-        <section id="services" class="services">
+        <section id="services" class="services" style="height: 120vh;">
             <div class="header_wrap">
                 <div class="hidden_title">
                     SERVICES
                     <h1 class="main_title">Our Awesome Services</h1>
                 </div>
+                <p class="topic_p description_font" style="margin-top: 5px;">
+                  A little bit of what we have done just to share & sense our bottom
+                  heart pleasure by designing and building these amazing things with
+                  you.
+                </p>
             </div>
         </section>
 
         <!--Products HTML -->
-        <section id="products" class="products">
-            <div class="header_wrap">
-                <div class="hidden_title">
-                    PRODUCTS
-                    <h1 class="main_title">Products</h1>
-                </div>
+        <section id="products" class="product-container">
+          <div class="header_wrap">
+            <div class="hidden_title">
+                PRODUCTS
+                <h1 class="main_title">Products</h1>
             </div>
+            <p class="topic_p description_font" style="margin-top: 5px;">
+              A little bit of what we have done just to share & sense our bottom
+              heart pleasure by designing and building these amazing things with
+              you.
+            </p>
+          </div>
+          
+          
+          <div class="product_card_row">
+            <div
+              style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+              "
+              class="product-card-wrap p_1 "
+              id="product_wrap-1"
+            >
+              <div class="product_box"  id="product_box-1" onclick="loadDescMain(1)" >
+                <div class="product-img-div">
+                  <img src="./assets/images/p-img8.jpg" alt="" />
+                </div>
+                <h1 style="text-align: center" class="product_own_titile sub_title_font">Product One</h1>
+              </div>
+              <div id="product_des-1" class="product_des description_font"></div>
+            </div>
+  
+            <div
+              style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+              "
+              class="product-card-wrap p_2"
+              id="product_wrap-2"
+            >
+              <div class="product_box"  id="product_box-2"  onclick="loadDescMain(2)">
+                <div class="product-img-div">
+                  <img src="./assets/images/p-img7.jpg" alt="" />
+                </div>
+                <h1 style="text-align: center" class="product_own_titile sub_title_font">Product Two</h1>
+              </div>
+              <div id="product_des-2" class="product_des description_font"></div>
+            </div>
+  
+            <div
+              style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+              "
+              class="product-card-wrap p_3"
+              id="product_wrap-3"
+            >
+              <div class="product_box"  id="product_box-3" onclick="loadDescMain(3)">
+                <div class="product-img-div">
+                  <img src="./assets/images/p-img6.jpg" alt="" />
+                </div>
+                <h1 style="text-align: center" class="product_own_titile sub_title_font">Product Three</h1>
+              </div>
+              <div id="product_des-3" class="product_des description_font"></div>
+            </div>
+  
+            <div
+              style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+              "
+              class="product-card-wrap p_4"
+              id="product_wrap-4"
+            >
+              <div class="product_box"  id="product_box-4"  onclick="loadDescMain(4)">
+                <div class="product-img-div">
+                  <img src="./assets/images/p-img5.jpg" alt="" />
+                </div>
+                <h1 style="text-align: center" class="product_own_titile sub_title_font">Product Four</h1>
+              </div>
+              <div id="product_des-4" class="product_des description_font"></div>
+            </div>
+  
+            <div
+              style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+              "
+              class="product-card-wrap p_5"
+              id="product_wrap-5"
+            >
+              <div class="product_box"  id="product_box-5" onclick="loadDescMain(5)">
+                <div class="product-img-div">
+                  <img src="./assets/images/p-img3.jpg" alt="" />
+                </div>
+                <h1 style="text-align: center" class="product_own_titile sub_title_font" >Product Five</h1>
+              </div>
+              <div id="product_des-5" class="product_des description_font"></div>
+            </div>
+          </div>
+          <div id="produc_des_main_title" class="produc_des_main_title sub_title_font" style="display: none; background-color: #f6f6f6; border:2px solid #409c69; margin-bottom: -2px; z-index: 1000; border-bottom: none; padding: 10px; font-size: 18px; font-weight: 600;   padding-left: 25px; padding-right: 25px; "></div>
+          <div
+            class="product_des_main description_font"
+            id="product_des_main"
+            style="display: none; background-color: #f6f6f6; margin-left: 75px; margin-right: 75px; padding: 25px; border: 2px solid #409c69; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); "
+          >
+          </div>
+  
+          <div 
+            id="new_produc_des_main_title_1" 
+            class="produc_des_main_title sub_title_font" 
+            style="display: none; background-color: #f6f6f6; border:2px solid #409c69; margin-bottom: -2px; z-index: 1000; border-bottom: none; padding: 10px; font-size: 18px; font-weight: 600;   padding-left: 25px; padding-right: 25px; margin-left: 75px;">
+          </div>
+          <div 
+            id="new_product_des-1" 
+            class="new_product_des description_font"
+            style="display: none; background-color: #f6f6f6; margin-left: 75px; margin-right: 75px; padding: 25px; border: 2px solid #409c69; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ">
+          </div>
+  
+          <div 
+            id="new_produc_des_main_title_2" 
+            class="produc_des_main_title sub_title_font" 
+            style="display: none; background-color: #f6f6f6; border:2px solid #409c69; margin-bottom: -2px; z-index: 1000; border-bottom: none; padding: 10px; font-size: 18px; font-weight: 600;   padding-left: 25px; padding-right: 25px; margin-left: 75px;">
+          </div>
+          <div 
+            id="new_product_des-2" 
+            class="new_product_des description_font"
+            style="display: none; background-color: #f6f6f6; margin-left: 75px; margin-right: 75px; padding: 25px; border: 2px solid #409c69; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ">
+          </div> 
+  
+          <div 
+            id="new_produc_des_main_title_3" 
+            class="produc_des_main_title sub_title_font" 
+            style="display: none; background-color: #f6f6f6; border:2px solid #409c69; margin-bottom: -2px; z-index: 1000; border-bottom: none; padding: 10px; font-size: 18px; font-weight: 600;   padding-left: 25px; padding-right: 25px; margin-left: 75px;">
+          </div>
+          <div 
+            id="new_product_des-3" 
+            class="new_product_des description_font"
+            style="display: none; background-color: #f6f6f6; margin-left: 75px; margin-right: 75px; padding: 25px; border: 2px solid #409c69; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ">
+          </div> 
+  
+          <div 
+            id="new_produc_des_main_title_4" 
+            class="produc_des_main_title sub_title_font" 
+            style="display: none; background-color: #f6f6f6; border:2px solid #409c69; margin-bottom: -2px; z-index: 1000; border-bottom: none; padding: 10px; font-size: 18px; font-weight: 600;   padding-left: 25px; padding-right: 25px; margin-left: 75px;">
+          </div>
+          <div 
+            id="new_product_des-4" 
+            class="new_product_des description_font"
+            style="display: none; background-color: #f6f6f6; margin-left: 75px; margin-right: 75px; padding: 25px; border: 2px solid #409c69; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ">
+          </div> 
+  
+          <div 
+            id="new_produc_des_main_title_5" 
+            class="produc_des_main_title sub_title_font" 
+            style="display: none; background-color: #f6f6f6; border:2px solid #409c69; margin-bottom: -2px; z-index: 1000; border-bottom: none; padding: 10px; font-size: 18px; font-weight: 600;   padding-left: 25px; padding-right: 25px; margin-left: 75px;">
+          </div>
+          <div 
+            id="new_product_des-5" 
+            class="new_product_des description_font"
+            style="display: none; background-color: #f6f6f6; margin-left: 75px; margin-right: 75px; padding: 25px; border: 2px solid #409c69; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ">
+          </div> 
+  
         </section>
 
         <!--Projects HTML -->
@@ -222,6 +395,11 @@
                     PROJECTS
                     <h1 class="main_title">Projects</h1>
                 </div>
+                <p class="topic_p description_font" style="margin-top: 5px;">
+                  A little bit of what we have done just to share & sense our bottom
+                  heart pleasure by designing and building these amazing things with
+                  you.
+                </p>
             </div>
 
             <div class="project_image_container">
@@ -547,6 +725,7 @@
         <script src="./assets/js/script.js"></script>
         <script src="./assets/js/methodology.js"></script>
         <script src="./assets/js/projects.js"></script>
+        <script src="./assets/js/products.js"></script>
 
     <!-- External Script Libraries -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
