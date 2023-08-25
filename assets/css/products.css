@@ -310,24 +310,44 @@
     display: none;
   }
 
-  .new_product_des-1{
-    display: none;
+  #new_product_des-1{
+    display: none !important;
   }
 
-  .new_product_des-2{
-    display: none;
+  #new_product_des-2{
+    display: none !important;
   }
 
-  .new_product_des-3{
-    display: none;
+  #new_product_des-3{
+    display: none !important;
   }
 
-  .new_product_des-4{
-    display: none;
+  #new_product_des-4{
+    display: none !important;
   }
 
-  .new_product_des-5{
-    display: none;
+  #new_product_des-5{
+    display: none !important;
+  }
+
+  #new_produc_des_main_title_1 {
+    display: none !important;
+  }
+
+  #new_produc_des_main_title_2 {
+    display: none !important;
+  }
+
+  #new_produc_des_main_title_3 {
+    display: none !important;
+  }
+
+  #new_produc_des_main_title_4 {
+    display: none !important;
+  }
+
+  #new_produc_des_main_title_5 {
+    display: none !important;
   }
 
 }
