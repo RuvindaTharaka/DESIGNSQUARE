@@ -14,6 +14,7 @@ function toggleNavLinks() {
 
 /* This is for active-links */
 /* Step I - Check is in viewport*/
+/*
 function isInViewport(element) {
     const rect = element.getBoundingClientRect();
     return (
@@ -22,8 +23,9 @@ function isInViewport(element) {
         rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
         rect.right <= (window.innerWidth || document.documentElement.clientWidth)
     );
-}
+}*/
 /* Step II - Bind & remove active-link*/
+/*
 function setActiveLink() {
     const sections = document.querySelectorAll("section");
     const navLinks = document.querySelectorAll(".nav-links a");
@@ -45,7 +47,9 @@ function setActiveLink() {
     });
 }
 
-window.addEventListener("scroll", setActiveLink);
+window.addEventListener("scroll", setActiveLink); */
+
+
 
 
 /*Animation*/
