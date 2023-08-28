@@ -44,7 +44,7 @@ html {
 
 /* ++++++++++++++++++++ Footer ++++++++++++++++++++ */
 .footer p{
-    font-size: 1.2rem;
+    font-size: .8rem;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     text-align: center;
@@ -138,11 +138,11 @@ html {
     letter-spacing: 1px;
 }
 
-/* ++++++++++++++++++++ Specialization ++++++++++++++++++++ */
+
 /* ++++++++++++++++++++ Contacts ++++++++++++++++++++ */
 .c_detail-1 h5 {
     font-size: 1.5rem ;
-    font-family: 'Abril Fatface', cursive;
+   
     font-weight: 400;
 }
 

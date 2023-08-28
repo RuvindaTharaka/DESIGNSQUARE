@@ -46,7 +46,7 @@ article h2 {
     transform: scale(var(--img-scale));
     transition: transform 0.3s ease-in-out;
     color: white;
-    padding-top: 13%;
+    padding-top: 16%;
     /* font-size: 89%; */
     font-size: 1.5rem;
     line-height: 0.8;
