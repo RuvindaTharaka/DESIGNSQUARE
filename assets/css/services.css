@@ -179,7 +179,7 @@ Generic layout (demo looks)
 }
 
 .bg_colour_in_services {
-    background-color: rgba(64, 156, 105, 1);
+    background-color: #529c71;
 }
 
 @media screen and (max-width: 768px) {
