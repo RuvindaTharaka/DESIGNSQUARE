@@ -13,8 +13,9 @@ function toggleNavLinks() {
 
 
 /* This is for active-links */
-/* Step I - Check is in viewport*/
-/*
+const navLinks = document.querySelectorAll('.nav-links a');
+
+// Function to check if an element is in the viewport
 function isInViewport(element) {
     const rect = element.getBoundingClientRect();
     return (
@@ -23,32 +24,24 @@ function isInViewport(element) {
         rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
         rect.right <= (window.innerWidth || document.documentElement.clientWidth)
     );
-}*/
-/* Step II - Bind & remove active-link*/
-/*
-function setActiveLink() {
-    const sections = document.querySelectorAll("section");
-    const navLinks = document.querySelectorAll(".nav-links a");
-    const dropLinks = document.querySelectorAll(".dropdown-links a");
+}
 
-    sections.forEach((section, index) => {
-        if (isInViewport(section)) {
-            navLinks.forEach(link => link.classList.remove("active-link"));
-            dropLinks.forEach(link => link.classList.remove("active-link"));
+// Function to update the active link
+function updateActiveLink() {
+    navLinks.forEach(link => {
+        const sectionId = link.getAttribute('href');
+        const section = document.querySelector(sectionId);
 
-            if (navLinks[index]) {
-                navLinks[index].classList.add("active-link");
-            }
-
-            if (dropLinks[index]) {
-                dropLinks[index].classList.add("active-link");
-            }
+        if (section && isInViewport(section)) {
+            link.classList.add('active-link');
+        } else {
+            link.classList.remove('active-link');
         }
     });
 }
 
-window.addEventListener("scroll", setActiveLink); */
-
+// Attach scroll event listener to update active link
+window.addEventListener('scroll', updateActiveLink);
 
 
 
