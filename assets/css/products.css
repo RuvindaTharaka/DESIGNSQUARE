@@ -60,6 +60,7 @@
   width: 270px;
   height: 340px;
   background-color: #f9f9f9;
+  cursor: pointer;
 }
 
 .product-card-wrap > div > .product-img-div > img {
