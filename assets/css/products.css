@@ -359,6 +359,15 @@
     width: 90%;
     height: auto;
   }
+  
+  .product_des {
+    height: auto;
+    align-items: flex-end;
+  }
+
+  .product_des  {
+    min-height: 600px !important;
+  }
 }
 
 @media (max-width: 500px) {

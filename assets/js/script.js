@@ -20,13 +20,15 @@ function scrollActive() {
 
     sections.forEach(current => {
         const sectionHeight = current.offsetHeight,
-            sectionTop = current.offsetTop - 58,
+            sectionTop = current.offsetTop - 80,
             sectionId = current.getAttribute('id')
 
         if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
             document.querySelector('.nav-links a[href*=' + sectionId + ']').classList.add('active-link')
+            document.querySelector('.dropdown-links a[href*=' + sectionId + ']').classList.add('active-link')
         } else {
             document.querySelector('.nav-links a[href*=' + sectionId + ']').classList.remove('active-link')
+            document.querySelector('.dropdown-links a[href*=' + sectionId + ']').classList.remove('active-link')
         }
     })
 }
