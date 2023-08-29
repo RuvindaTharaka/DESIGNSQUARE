@@ -27,6 +27,7 @@
     align-items: center;
     text-align: center;
     cursor: pointer;
+    padding: .5rem;
 }
   
 .timeline-line {
