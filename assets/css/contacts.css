@@ -58,6 +58,7 @@
     flex-wrap: wrap;
     margin-bottom: 15px;
     justify-content: flex-end;
+    width: 600px;
 }
 
 .input-container {
@@ -94,25 +95,34 @@ textarea {
 
 
 
-@media (max-width: 840px) {
+@media (max-width: 1065px) {
     .contacts_details {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .c_detail-1 {
         width: 100%;
         min-height: 300px;
+        border-bottom: .5px solid white;
     }
 
     .c_detail-3 {
         width: 100%;
         min-height: 300px;
+       
     }
 
     .c_detail-2 {
         width: 100%;
         min-height: 300px;
+        
+    }
+
+    .row {
+        width: 90vw;
     }
 }
 
@@ -120,7 +130,6 @@ textarea {
     .c_detail-1 {
         display: flex;
         flex-direction: column;
-        height: 440px;
         justify-content: space-around;
     }
 
