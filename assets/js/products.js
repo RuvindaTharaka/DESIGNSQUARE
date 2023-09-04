@@ -21,6 +21,7 @@ function loadDescMain(step) {
 
     var newDescSub1 = document.getElementById("new_product_des-1");
     var newDescSub2 = document.getElementById("new_product_des-2");
+    var newDescSub2_pre = document.getElementById("new_product_des-2_pre");
     var newDescSub3 = document.getElementById("new_product_des-3");
     var newDescSub4 = document.getElementById("new_product_des-4");
     var newDescSub5 = document.getElementById("new_product_des-5");
@@ -31,19 +32,20 @@ function loadDescMain(step) {
     var producDesMainTitle4 = document.getElementById("new_produc_des_main_title_4");
     var producDesMainTitle5 = document.getElementById("new_produc_des_main_title_5");
 
-    var descMain = "The first and foremost step is to map a draft of the final outcome through the eyes of the client. We believe interior designing is personal, rather a unique concern. Getting to know the client’s vision is very vital in bringing out the spectacle. We then carefully inspect the job site at this stage. Design Square will be very attentive to the nature of the space/business, occupants’ lifestyle and behavior, colour matches and favourations and even tiny details such as pets, vehicles, surrounding when creating and designing concepts. Discussions and more discussions, one thing we at Design Square believe in as one important and continuing activity to the desired magic. Budget discussions is also an important corridor to walk-through carefully at this stage. The goal is to delight  the client without making a hole in the pocket. We finalize which design ideology to go on in this imperative phase.";
+    var descMain = "We have a wide variety of tables ranging from writing desks, executive tables, secretary tables with cubbies, computer tables, shell desks, floating desks, foldable tables, L-shaped desks to adjustable standing and revolving tables. All our tables and desks are manufactured with either melamine, solid-wood, MDF, and hybrid with iron and wood/melamine or MDF of superior quality";
     var haggingTitle = document.getElementById("produc_des_main_title");
+
 
     switch (step) {
         case 1:
 
-            descMain = "The first and foremost step is to map a draft of the final outcome through the eyes of the client. We believe interior designing is personal, rather a unique concern. Getting to know the client’s vision is very vital in bringing out the spectacle. We then carefully inspect the job site at this stage. Design Square will be very attentive to the nature of the space/business, occupants’ lifestyle and behavior, colour matches and favourations and even tiny details such as pets, vehicles, surrounding when creating and designing concepts. Discussions and more discussions, one thing we at Design Square believe in as one important and continuing activity to the desired magic. Budget discussions is also an important corridor to walk-through carefully at this stage. The goal is to delight  the client without making a hole in the pocket. We finalize which design ideology to go on in this imperative phase.";
+            descMain = "We have a wide variety of tables ranging from writing desks, executive tables, secretary tables with cubbies, computer tables, shell desks, floating desks, foldable tables, L-shaped desks to adjustable standing and revolving tables. All our tables and desks are manufactured with either melamine, solid-wood, MDF, and hybrid with iron and wood/melamine or MDF of superior quality";
             descSub1.textContent = descMain;
             descSub2.textContent = "";
             descSub3.textContent = "";
             descSub4.textContent = "";
             descSub5.textContent = "";
-            descTitle.textContent = "Product One";
+            descTitle.textContent = "Desks/Tables";
 
             newDescSub1.style.display = "block";
             newDescSub1.textContent = descMain;
@@ -96,13 +98,35 @@ function loadDescMain(step) {
             break;
         case 2:
 
-            descMain = "We then design. We draw. We map. We sketch. We do a lot of them, guessing what the client would prefer one over the other. After further discussions, we make any alterations, changes, colour grading, and enhancing the design further to fine-tune the best outcome yet to happen.";
+            descMain = `We are specialized in providing a vast range of chairs with different surface and other materials. You can pick from a palette of colours for our entire range of chairs. Ranging from economical to more elegant and 
+            prestigious chairs, we guarantee that all our chairs are very comfortable and carefully crafted.
+            •	Desk chairs with lower/medium/high-back, with/without arms
+            •	Mesh chairs with lower/medium/high-back, with/without arms
+            •	Executive chair range medium/high-back with arms
+            •	Director chairs high-back with arms
+            •	Arm chairs with different surface materials and attractive colour range
+            •	Wingback chairs with different surface materials and attractive colour range
+            •	Lounge chairs together with ottoman with different surface materials 
+                and attractive colour range
+            •	Leather club chair range
+            •	Loveseats with different surface materials and attractive colour range
+            •	Wood/plastic Windsor chairs
+            •	Egg chairs with different surface materials and attractive colour range
+            •	Wood made Wishbone chairs
+            •	Tulip chair range
+            •	Rocking chair range
+            •	Womb chairs with different surface materials and attractive colour range
+            •	Chesterfield chairs with different surface materials and attractive colour range
+            •	Barrel chairs with different surface materials and attractive colour range
+            •	Bistro chair range 
+            •	Recliner chairs with different surface materials and attractive colour range
+            `
             descSub2.textContent = descMain;
             descSub1.textContent = "";
             descSub3.textContent = "";
             descSub4.textContent = "";
             descSub5.textContent = "";
-            descTitle.textContent = "Product Two";
+            descTitle.textContent = " Chairs";
 
             newDescSub1.textContent = "";
             newDescSub1.style.display = 'none';
@@ -118,7 +142,7 @@ function loadDescMain(step) {
             producDesMainTitle1.style.display = "none";
             producDesMainTitle1.textContent = "";
             producDesMainTitle2.style.display = "block";
-            producDesMainTitle2.textContent = "Product Two";
+            producDesMainTitle2.textContent = " Chairs";
             producDesMainTitle3.style.display = "none";
             producDesMainTitle3.textContent = "";
             producDesMainTitle4.style.display = "none";
@@ -154,13 +178,13 @@ function loadDescMain(step) {
             break;
         case 3:
 
-            descMain = "The magic converted in to reality in this phase. Once the agreeable design is finalized along with other resources, we focus on getting the real work done.In this phase, the excellence of work will be the rule to follow in order to achieve the craftsmanship to the utmost quality and standards. Compromising is out of the context in delivering what we promise.Just-in-Time JIT) delivery of work will also be one of our biggest considerations at this stage. Our expert team will assist and keep a keen eye until the project is fully completed. We then do the final inspections and go through each and every single detail before the project is handed over to the happy client.";
+            descMain = `The magic converted in to reality in this phase. Once the agreeable design is finalized along with other resources, we focus on getting the real work done.In this phase, the excellence of work will be the rule to follow in order to achieve the craftsmanship to the utmost quality and standards. Compromising is out of the context in delivering what we promise.Just-in-Time JIT) delivery of work will also be one of our biggest considerations at this stage. Our expert team will assist and keep a keen eye until the project is fully completed. We then do the final inspections and go through each and every single detail before the project is handed over to the happy client.`;
             descSub3.textContent = descMain;
             descSub2.textContent = "";
             descSub1.textContent = "";
             descSub4.textContent = "";
             descSub5.textContent = "";
-            descTitle.textContent = "Product Three";
+            descTitle.textContent = "Flooring";
 
             newDescSub1.textContent = "";
             newDescSub1.style.display = 'none';
@@ -178,7 +202,7 @@ function loadDescMain(step) {
             producDesMainTitle2.style.display = "none";
             producDesMainTitle2.textContent = "";
             producDesMainTitle3.style.display = "block";
-            producDesMainTitle3.textContent = "Product Three";
+            producDesMainTitle3.textContent = "Flooring";
             producDesMainTitle4.style.display = "none";
             producDesMainTitle4.textContent = "";
             producDesMainTitle5.style.display = "none";
@@ -218,7 +242,7 @@ function loadDescMain(step) {
             descSub3.textContent = "";
             descSub1.textContent = "";
             descSub5.textContent = "";
-            descTitle.textContent = "Product Four";
+            descTitle.textContent = "Ceiling";
 
             newDescSub1.textContent = "";
             newDescSub1.style.display = 'none';
@@ -238,7 +262,7 @@ function loadDescMain(step) {
             producDesMainTitle3.style.display = "none";
             producDesMainTitle3.textContent = "";
             producDesMainTitle4.style.display = "block";
-            producDesMainTitle4.textContent = "Product Four";
+            producDesMainTitle4.textContent = "Ceiling";
             producDesMainTitle5.style.display = "none";
             producDesMainTitle5.textContent = "";
 
