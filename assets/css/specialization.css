@@ -46,16 +46,17 @@
 	background: #529c71;
 	text-align: center;
 	cursor: pointer;
-
+	width: 50%;
+	height: 100%;
     width: auto;
 }
 
 .specializations_grid figure img {
 	position: relative;
 	display: block;
-	min-height: 100%;
-	max-width: 100%;
-	opacity: 0.8;
+	height: 100%;
+	width: 100%;
+	opacity: 0.5;
 }
 
 .specializations_grid figure figcaption {
