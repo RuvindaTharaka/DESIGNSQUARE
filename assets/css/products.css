@@ -1,4 +1,8 @@
+
 .product-container {
+  width: 100%;
+  height: auto;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -45,12 +49,12 @@
   align-items: center;
   width: 100%;
   position: relative;
-  height: 450px;
+  min-height: 450px;
+  height: auto;
 }
 
 .product-card-wrap {
   position: absolute;
-
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -261,7 +265,7 @@
     display: grid;
     grid-template-columns: auto auto;
     gap: 50px;
-    height: 1600px;
+    height: auto;
     width: 90%;
     padding: 25px;
     justify-content: center;
@@ -368,9 +372,6 @@
     align-items: flex-end;
   }
 
-  .product_des  {
-    min-height: 600px !important;
-  }
 }
 
 @media (max-width: 500px) {

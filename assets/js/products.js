@@ -59,7 +59,7 @@ function loadDescMain(step) {
             newDescSub5.style.display = 'none';
 
             producDesMainTitle1.style.display = "block";
-            producDesMainTitle1.textContent = "Product One";
+            producDesMainTitle1.textContent = "Desks/Tables";
             producDesMainTitle2.style.display = "none";
             producDesMainTitle2.textContent = "";
             producDesMainTitle3.style.display = "none";
@@ -98,30 +98,51 @@ function loadDescMain(step) {
             break;
         case 2:
 
-            descMain = `We are specialized in providing a vast range of chairs with different surface and other materials. You can pick from a palette of colours for our entire range of chairs. Ranging from economical to more elegant and 
-            prestigious chairs, we guarantee that all our chairs are very comfortable and carefully crafted.
-            •	Desk chairs with lower/medium/high-back, with/without arms
-            •	Mesh chairs with lower/medium/high-back, with/without arms
-            •	Executive chair range medium/high-back with arms
-            •	Director chairs high-back with arms
-            •	Arm chairs with different surface materials and attractive colour range
-            •	Wingback chairs with different surface materials and attractive colour range
-            •	Lounge chairs together with ottoman with different surface materials 
-                and attractive colour range
-            •	Leather club chair range
-            •	Loveseats with different surface materials and attractive colour range
-            •	Wood/plastic Windsor chairs
-            •	Egg chairs with different surface materials and attractive colour range
-            •	Wood made Wishbone chairs
-            •	Tulip chair range
-            •	Rocking chair range
-            •	Womb chairs with different surface materials and attractive colour range
-            •	Chesterfield chairs with different surface materials and attractive colour range
-            •	Barrel chairs with different surface materials and attractive colour range
-            •	Bistro chair range 
-            •	Recliner chairs with different surface materials and attractive colour range
-            `
-            descSub2.textContent = descMain;
+            descMain = 'We are specialized in providing a vast range of chairs with different surface and other materials. You can pick from a palette of colours for our entire range of chairs. Ranging from economical to more elegant and prestigious chairs, we guarantee that all our chairs are very comfortable and carefully crafted.' +
+                '<ul>' +
+                '<li>Desk chairs with lower/medium/high-back, with/without arms</li>' +
+                '<li>Mesh chairs with lower/medium/high-back, with/without arms</li>' +
+                '<li>Executive chair range medium/high-back with arms</li>' +
+                '<li>Director chairs high-back with arms</li>' +
+                '<li>Arm chairs with different surface materials and attractive colour range</li>' +
+                '<li>Wingback chairs with different surface materials and attractive colour range</li>' +
+                '<li>Lounge chairs together with ottoman with different surface materials and attractive colour range</li>' +
+                '<li>Leather club chair range</li>' +
+                '<li>Loveseats with different surface materials and attractive colour range</li>' +
+                '<li>Wood/plastic Windsor chairs</li>' +
+                '<li>Egg chairs with different surface materials and attractive colour range</li>' +
+                '<li>Wood made Wishbone chairs</li>' +
+                '<li>Tulip chair range</li>' +
+                '<li>Rocking chair range</li>' +
+                '<li>Womb chairs with different surface materials and attractive colour range</li>' +
+                '<li>Chesterfield chairs with different surface materials and attractive colour range</li>' +
+                '<li>Barrel chairs with different surface materials and attractive colour range</li>' +
+                '<li>Bistro chair range </li>' +
+                '<li>Recliner chairs with different surface materials and attractive colour range</li>' +
+                '</ul>';
+
+
+            var descMains = `We are specialized in providing a vast range of chairs with different surface and other materials. You can pick from a palette of colours for our entire range of chairs. Ranging from economical to more elegant and prestigious chairs, we guarantee that all our chairs are very comfortable and carefully crafted.
+                •	Desk chairs with lower/medium/high-back, with/without arms
+                •	Mesh chairs with lower/medium/high-back, with/without arms
+                •	Executive chair range medium/high-back with arms
+                •	Director chairs high-back with arms
+                •	Arm chairs with different surface materials and attractive colour range
+                •	Wingback chairs with different surface materials and attractive colour range
+                •	Lounge chairs together with ottoman with different surface materials and attractive colour range
+                •	Leather club chair range
+                •	Loveseats with different surface materials and attractive colour range
+                •	Wood/plastic Windsor chairs
+                •	Egg chairs with different surface materials and attractive colour range
+                •	Wood made Wishbone chairs
+                •	Tulip chair range
+                •	Rocking chair range
+                •	Womb chairs with different surface materials and attractive colour range
+                •	Chesterfield chairs with different surface materials and attractive colour range
+                •	Barrel chairs with different surface materials and attractive colour range
+                •	Bistro chair range 
+                •	Recliner chairs with different surface materials and attractive colour range`;
+            descSub2.textContent = descMains;
             descSub1.textContent = "";
             descSub3.textContent = "";
             descSub4.textContent = "";
@@ -131,7 +152,7 @@ function loadDescMain(step) {
             newDescSub1.textContent = "";
             newDescSub1.style.display = 'none';
             newDescSub2.style.display = "block";
-            newDescSub2.textContent = descMain;
+            newDescSub2.innerHTML = descMain;
             newDescSub3.textContent = "";
             newDescSub3.style.display = 'none';
             newDescSub4.textContent = "";
@@ -294,13 +315,13 @@ function loadDescMain(step) {
             break;
         case 5:
 
-            descMain = "2Our concern for our clients’ satisfaction is not over yet. We care about the continuing satisfaction of our clients by providing comprehensive support and services even after the successful completion of the project. From enhancements to alterations and modifications, we are happy to continue the delivery of support and services with no delay.We are unique in terms of our tradition of building trusted and long-lasting corporate relationships with our clients.";
+            descMain = "Partitioning is a specific art and a stand-out in providing the real look and glamour for most interior spaces, henceforth this is an area we are very specific about. We are very unique when it comes to partitioning products such that we have specialized our line of partitioning products under a separate production line with the brand name PartitionsLK.";
             descSub5.textContent = descMain;
             descSub4.textContent = "";
             descSub3.textContent = "";
             descSub2.textContent = "";
             descSub1.textContent = "";
-            descTitle.textContent = "Product Five";
+            descTitle.textContent = "Partitions";
 
             newDescSub1.textContent = "";
             newDescSub1.style.display = 'none';
@@ -322,7 +343,7 @@ function loadDescMain(step) {
             producDesMainTitle4.style.display = "none";
             producDesMainTitle4.textContent = "";
             producDesMainTitle5.style.display = "block";
-            producDesMainTitle5.textContent = "Product Five";
+            producDesMainTitle5.textContent = "Partitions";
 
             productWrap1.classList.remove("product_wrap_clicked");
             productWrap2.classList.remove("product_wrap_clicked");
