@@ -210,8 +210,15 @@ figure.specializations_effect:hover p {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
     .specializations_grid {
         grid-template-columns: auto;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+	.specializations_grid figure{
+        height: 360px;
     }
 }
