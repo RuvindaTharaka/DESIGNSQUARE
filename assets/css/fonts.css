@@ -68,9 +68,9 @@ html {
 
 /* ++++++++++++++++++++ Home ++++++++++++++++++++ */
 .home_title_1 {
-    font-family: 'Playfair Display', sans-serif ;
+    font-family: 'Oswald', sans-serif;
     font-weight: 800 ;
-    letter-spacing: 0px ;
+    letter-spacing: 3px ;
     font-size: 5rem ;
 }
 
