@@ -71,7 +71,7 @@ inputElement1.addEventListener("focus", function () {
     inputElement1.placeholder = "";
     inputElement1.style.border = "2px solid rgba(62, 101, 62, 1)";
     inputElement1.style.outline = "none";
-
+    inputElement1.style.textAlign = "left";
 
 });
 
@@ -80,7 +80,7 @@ inputElement2.addEventListener("focus", function () {
     inputElement2.placeholder = "";
     inputElement2.style.border = "2px solid rgba(62, 101, 62, 1)";
     inputElement2.style.outline = "none";
-
+    inputElement2.style.textAlign = "left";
 });
 
 inputElement3.addEventListener("focus", function () {
@@ -88,6 +88,7 @@ inputElement3.addEventListener("focus", function () {
     inputElement3.placeholder = "";
     inputElement3.style.border = "2px solid rgba(62, 101, 62, 1)";
     inputElement3.style.outline = "none";
+    inputElement3.style.textAlign = "left";
 });
 
 inputElement4.addEventListener("focus", function () {
@@ -95,29 +96,33 @@ inputElement4.addEventListener("focus", function () {
     inputElement4.placeholder = "";
     inputElement4.style.border = "2px solid rgba(62, 101, 62, 1)";
     inputElement4.style.outline = "none";
+    inputElement4.style.textAlign = "left";
 });
 
 inputElement1.addEventListener("blur", function () {
     // Restore the placeholder text if the input is empty
     if (inputElement1.value === "") {
-        inputElement1.placeholder = "Enter Your Name";
+        inputElement1.placeholder = "Your Name";
         inputElement1.style.borderColor = "#FFFFFF";
+        inputElement1.style.textAlign = "center";
     }
 });
 
 inputElement2.addEventListener("blur", function () {
     // Restore the placeholder text if the input is empty
     if (inputElement2.value === "") {
-        inputElement2.placeholder = "Enter Your Email";
+        inputElement2.placeholder = "Your Email";
         inputElement2.style.borderColor = "#FFFFFF";
+        inputElement2.style.textAlign = "center";
     }
 });
 
 inputElement3.addEventListener("blur", function () {
     // Restore the placeholder text if the input is empty
     if (inputElement3.value === "") {
-        inputElement3.placeholder = "Enter Email Subject";
+        inputElement3.placeholder = "Email Subject";
         inputElement3.style.borderColor = "#FFFFFF";
+        inputElement3.style.textAlign = "center";
     }
 });
 
@@ -125,7 +130,8 @@ inputElement3.addEventListener("blur", function () {
 inputElement4.addEventListener("blur", function () {
     // Restore the placeholder text if the input is empty
     if (inputElement4.value === "") {
-        inputElement4.placeholder = "Enter Your Message";
+        inputElement4.placeholder = "Your Message";
         inputElement4.style.borderColor = "#FFFFFF";
+        inputElement4.style.textAlign = "center";
     }
 });
