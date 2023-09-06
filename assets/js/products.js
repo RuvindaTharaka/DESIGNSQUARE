@@ -21,6 +21,7 @@ function loadDescMain(step) {
 
     var newDescSub1 = document.getElementById("new_product_des-1");
     var newDescSub2 = document.getElementById("new_product_des-2");
+    newDescSub2.className = "new_product_des-2";
     var newDescSub2_pre = document.getElementById("new_product_des-2_pre");
     var newDescSub3 = document.getElementById("new_product_des-3");
     var newDescSub4 = document.getElementById("new_product_des-4");
@@ -121,7 +122,6 @@ function loadDescMain(step) {
                 '<li>Recliner chairs with different surface materials and attractive colour range</li>' +
                 '</ul>';
 
-
             var descMains = `We are specialized in providing a vast range of chairs with different surface and other materials. You can pick from a palette of colours for our entire range of chairs. Ranging from economical to more elegant and prestigious chairs, we guarantee that all our chairs are very comfortable and carefully crafted.
                 •	Desk chairs with lower/medium/high-back, with/without arms
                 •	Mesh chairs with lower/medium/high-back, with/without arms
@@ -142,7 +142,7 @@ function loadDescMain(step) {
                 •	Barrel chairs with different surface materials and attractive colour range
                 •	Bistro chair range 
                 •	Recliner chairs with different surface materials and attractive colour range`;
-            descSub2.textContent = descMains;
+            descSub2.innerHTML = descMain;
             descSub1.textContent = "";
             descSub3.textContent = "";
             descSub4.textContent = "";

@@ -7,10 +7,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  /* margin-top: 100px; */
   height: auto;
   padding: 2rem;
-  padding-bottom: 5rem;
+  padding-bottom: 3rem;
 }
 
 .product_header {
@@ -76,35 +76,35 @@
 
 .product-card-wrap:nth-child(1) {
   top: 10%;
-  left: 10%;
+  left: 7%;
   z-index: 1000;
   opacity: 1000;
 }
 
 .product-card-wrap:nth-child(2) {
   top: 15%;
-  left: 26%;
+  left: 23%;
   z-index: 2000;
   opacity: 2000;
 }
 
 .product-card-wrap:nth-child(3) {
   top: 5%;
-  left: 42%;
+  left: 39%;
   z-index: 3000;
   opacity: 3000;
 }
 
 .product-card-wrap:nth-child(4) {
   top: 15%;
-  left: 58.5%;
+  left: 55.5%;
   z-index: 4000;
   opacity: 4000;
 }
 
 .product-card-wrap:nth-child(5) {
   top: 10%;
-  left: 75%;
+  left: 72%;
   z-index: 5000;
   opacity: 5000;
 }
@@ -155,11 +155,11 @@
   background-color: #409c69;
   color: #fff;
 
-  animation: fadeIn 5s;
-  -webkit-animation: fadeIn 5s;
-  -moz-animation: fadeIn 5s;
-  -o-animation: fadeIn 5s;
-  -ms-animation: fadeIn 5s;
+  animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
 
 }
 
@@ -177,11 +177,15 @@
 }
 
 .fade-in_text {
-  animation: fadeIn 5s;
-  -webkit-animation: fadeIn 5s;
-  -moz-animation: fadeIn 5s;
-  -o-animation: fadeIn 5s;
-  -ms-animation: fadeIn 5s;
+  animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
+
+.new_product_des-2 ul{
+  margin-left: 3%;
 }
 
 @keyframes fadeIn {
@@ -263,7 +267,7 @@
 @media (max-width: 1024px) {
   .product_card_row {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
     gap: 50px;
     height: auto;
     width: 90%;
@@ -307,6 +311,7 @@
     display: flex !important;
     text-align: center;
     margin-top: 10px;
+    flex-direction: column;
   }
 
   .product_des_main {

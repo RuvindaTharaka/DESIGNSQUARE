@@ -1,13 +1,13 @@
 .specializations {
 	width: 100%;
 	padding: 2rem;
-	padding-bottom: 5rem;
+	padding-bottom: 3rem;
     background-color: var(--primary-color);
 }
 
 .specializations_content {
 	margin: 0 auto;
-	max-width: 1000px;
+	/* max-width: 1000px; */
 }
 
 /* .specializations_grid {

@@ -4,6 +4,7 @@
     width: 100%;
     height: auto;
     padding: 2rem;
+    padding-bottom: 3rem;
 }
 
 .timeline {
@@ -72,8 +73,8 @@
 }
   
 .methodology_description {
-    margin: 40px 160px 0px 160px;
-    min-height: 320px;
+    margin: 40px 160px 20px 160px;
+    /* min-height: 320px; */
     height: auto;
     text-align: center;
 }
